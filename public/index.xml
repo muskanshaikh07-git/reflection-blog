@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Project</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2026 12:35:09 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 25 Mar 2026 12:35:09 +0530</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;Hello! I’m &lt;strong&gt;Muskan Shaikh&lt;/strong&gt;, currently pursuing a degree in &lt;strong&gt;Information Science&lt;/strong&gt; at &lt;strong&gt;Azim Premji University&lt;/strong&gt;. I chose this field because I have a strong interest in &lt;strong&gt;robotics&lt;/strong&gt;, especially the way it brings together &lt;strong&gt;software and hardware&lt;/strong&gt; to solve real-world problems.&lt;/p&gt;&#xA;&lt;p&gt;My journey into robotics started when I was in &lt;strong&gt;Grade 9&lt;/strong&gt;. I got the opportunity to be part of a &lt;strong&gt;robotics organization&lt;/strong&gt;, and that experience completely changed the way I looked at technology. I was introduced to different &lt;strong&gt;programming languages&lt;/strong&gt; such as &lt;strong&gt;Java, Python, and HTML&lt;/strong&gt;, and I also learned &lt;strong&gt;3D modeling&lt;/strong&gt; using &lt;strong&gt;Fusion 360&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
