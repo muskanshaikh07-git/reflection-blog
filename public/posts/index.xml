@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Project</title>
-    <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/</link>
+    <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/</link>
     <description>Recent content in Posts on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Mar 2026 12:39:51 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/muskanshaikh07-git/reflection-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My learning experience with binary and optimizing problems</title>
-      <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/reflection-post/</link>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/reflection-post/</link>
       <pubDate>Wed, 25 Mar 2026 12:39:51 +0530</pubDate>
-      <guid>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/reflection-post/</guid>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/reflection-post/</guid>
       <description>&lt;p&gt;In this unit, I learned about concepts that are related to binary numbers, decimal conversions, problem-solving (optimization problems) and transforming image. This all topics are new for me especially the topic related to binary numbers because as I change my major in second semester so I was unaware of what does binary numbers means firstly I consider this as normal numbers system. But later on I understood that computers only use 0s and 1s language which is known as binary number this concept was totally forgotten by me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/my-first-post/</link>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/my-first-post/</link>
       <pubDate>Wed, 25 Mar 2026 12:35:09 +0530</pubDate>
-      <guid>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/my-first-post/</guid>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;Hello! I’m &lt;strong&gt;Muskan Shaikh&lt;/strong&gt;, currently pursuing a degree in &lt;strong&gt;Information Science&lt;/strong&gt; at &lt;strong&gt;Azim Premji University&lt;/strong&gt;. I chose this field because I have a strong interest in &lt;strong&gt;robotics&lt;/strong&gt;, especially the way it brings together &lt;strong&gt;software and hardware&lt;/strong&gt; to solve real-world problems.&lt;/p&gt;&#xA;&lt;p&gt;My journey into robotics started when I was in &lt;strong&gt;Grade 9&lt;/strong&gt;. I got the opportunity to be part of a &lt;strong&gt;robotics organization&lt;/strong&gt;, and that experience completely changed the way I looked at technology. I was introduced to different &lt;strong&gt;programming languages&lt;/strong&gt; such as &lt;strong&gt;Java, Python, and HTML&lt;/strong&gt;, and I also learned &lt;strong&gt;3D modeling&lt;/strong&gt; using &lt;strong&gt;Fusion 360&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
