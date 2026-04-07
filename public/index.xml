@@ -6,8 +6,15 @@
     <description>Recent content on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2026 12:39:51 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 15:43:09 +0530</lastBuildDate>
     <atom:link href="https://github.com/muskanshaikh07-git/reflection-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Blog</title>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/second-blog/</link>
+      <pubDate>Tue, 07 Apr 2026 15:43:09 +0530</pubDate>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/second-blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Learning about Failure wiki :-&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this unit, I have learned about the concepts of failure and how it doesn’t always have a negative outcome, but it&amp;rsquo;s an important part of learning. Before learning this concept I used to think of failure as something that can be avoided but later this topic completely changed my perspective. Basically it shows me how failure can actually help us in understanding the situation better and improving future decisions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My learning experience with binary and optimizing problems</title>
       <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/reflection-post/</link>
