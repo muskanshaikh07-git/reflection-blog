@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Decode to Escape</title>
+
+<style>
+body {
+  margin: 0;
+  background: black;
+  color: #00bfff;
+  font-family: 'Courier New', monospace;
+}
+
+/* Background canvas */
+#binaryCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Center content */
+#terminal, #game {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text Styling */
+h1, h2, #level, #message, p {
+  color: #00bfff;
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #0080ff;
+}
+
+/* Buttons */
+.option {
+  margin: 10px;
+  padding: 12px;
+  width: 220px;
+  border: 1px solid #00bfff;
+  background: transparent;
+  color: #00bfff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  background: #00bfff;
+  color: black;
+  box-shadow: 0 0 15px #00bfff, 0 0 30px #0080ff;
+}
+
+/* Robot Guide */
+#guide {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  background: rgba(0,0,0,0.9);
+  border: 1px solid #00bfff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 15px #00bfff;
+  animation: float 2s infinite ease-in-out;
+}
+
+#robotImg {
+  width: 60px;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="binaryCanvas"></canvas>
+
+<div id="terminal">
+  <p id="typingText"></p>
+  <button class="option" onclick="startGame()">ENTER SYSTEM</button>
+</div>
+
+<div id="game" style="display:none;">
+  <h1>Decode to Escape</h1>
+  <p style="font-size:12px;">SYSTEM STATUS: ACTIVE</p>
+  <p id="level"></p>
+  <h2 id="question"></h2>
+  <div id="options"></div>
+  <p id="message"></p>
+</div>
+
+<div id="guide">
+  <img id="robotImg" src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+  <p><strong>System AI</strong></p>
+  <p id="guideText"></p>
+</div>
+
+<audio id="correctSound" src="https://www.soundjay.com/buttons/sounds/button-3.mp3"></audio>
+<audio id="wrongSound" src="https://www.soundjay.com/buttons/sounds/button-10.mp3"></audio>
+
+<script>
+let text = "SYSTEM INITIALIZING...";
+let i = 0;
+function typeEffect() {
+  if (i < text.length) {
+    document.getElementById("typingText").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeEffect, 50);
+  }
+}
+typeEffect();
+
+let current = 0;
+
+const questions = [
+  { q: "1 AND 1 = ?", options: [0,1], ans: 1, level: "Easy", hint: "Both inputs must be 1." },
+  { q: "1 OR 0 = ?", options: [0,1], ans: 1, level: "Easy", hint: "At least one is 1." },
+  { q: "NOT 1 = ?", options: [0,1], ans: 0, level: "Medium", hint: "NOT flips the value." },
+  { q: "0 OR 0 = ?", options: [0,1], ans: 0, level: "Medium", hint: "None is 1." },
+  { q: "(1 AND 1) OR 0 = ?", options: [0,1], ans: 1, level: "Hard", hint: "Solve AND first." },
+  { q: "NOT (1 OR 0) = ?", options: [0,1], ans: 0, level: "Hard", hint: "OR first, then NOT." }
+];
+
+function startGame() {
+  document.getElementById("terminal").style.display = "none";
+  document.getElementById("game").style.display = "flex";
+  loadQuestion();
+}
+
+function loadQuestion() {
+  let q = questions[current];
+  document.getElementById("question").innerText = q.q;
+  document.getElementById("level").innerText = "Level: " + q.level;
+  document.getElementById("message").innerText = "";
+  document.getElementById("guideText").innerText = q.hint;
+
+  let optionsHTML = "";
+  q.options.forEach(opt => {
+    optionsHTML += `<button class="option" onclick="checkAnswer(${opt})">${opt}</button>`;
+  });
+
+  document.getElementById("options").innerHTML = optionsHTML;
+}
+
+function checkAnswer(choice) {
+  let q = questions[current];
+
+  if (choice === q.ans) {
+    document.getElementById("message").innerText = "Access Granted ✅";
+    document.getElementById("guideText").innerText = "Correct. Proceeding...";
+    document.getElementById("correctSound").play();
+
+    setTimeout(() => {
+      current++;
+      if (current < questions.length) {
+        loadQuestion();
+      } else {
+        document.getElementById("question").innerText = "SYSTEM UNLOCKED 🎉";
+        document.getElementById("level").innerText = "";
+        document.getElementById("options").innerHTML = "";
+        document.getElementById("guideText").innerText = "You escaped the system!";
+      }
+    }, 1200);
+
+  } else {
+    document.getElementById("message").innerText = "Access Denied ❌";
+    document.getElementById("guideText").innerText = "Try again… " + q.hint;
+    document.getElementById("wrongSound").play();
+  }
+}
+
+/* Binary Background (LIGHT GREEN, NO NEON) */
+const canvas = document.getElementById("binaryCanvas");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const letters = "01";
+const fontSize = 14;
+const columns = canvas.width / fontSize;
+
+const drops = [];
+
+for (let x = 0; x < columns; x++) {
+  drops[x] = Math.random() * canvas.height;
+}
+
+function draw() {
+  ctx.fillStyle = "rgba(0, 0, 0, 0.08)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillStyle = "#90ee90"; // LIGHT GREEN
+  ctx.font = fontSize + "px monospace";
+
+  for (let i = 0; i < drops.length; i++) {
+    const text = letters.charAt(Math.floor(Math.random() * letters.length));
+    ctx.fillText(text, i * fontSize, drops[i]);
+
+    if (drops[i] > canvas.height && Math.random() > 0.975) {
+      drops[i] = 0;
+    }
+
+    drops[i] += fontSize;
+  }
+}
+
+setInterval(draw, 50);
+
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
+</script>
+
+</body>
+</html>
