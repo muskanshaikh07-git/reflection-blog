@@ -1,10 +1,9 @@
 +++
 date = '2026-03-25T12:35:09+05:30'
 draft = false
-title = 'My First Post'
+title = 'About me'
 +++
 
-## About Me
 
 Hello! I’m **Muskan Shaikh**, currently pursuing a degree in **Information Science** at **Azim Premji University**. I chose this field because I have a strong interest in **robotics**, especially the way it brings together **software and hardware** to solve real-world problems.
 

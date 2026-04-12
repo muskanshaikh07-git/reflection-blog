@@ -1,12 +1,8 @@
 +++
 date = '2026-04-07T15:43:09+05:30'
 draft = false
-title = 'Second Blog'
+title = 'Learning about Failure wiki '
 +++
-
-**Learning about Failure wiki :-** 
-
-
 
 In this unit, I have learned about the concepts of failure and how it doesn’t always have a negative outcome, but it's an important part of learning. Before learning this concept I used to think of failure as something that can be avoided but later this topic completely changed my perspective. Basically it shows me how failure can actually help us in understanding the situation better and improving future decisions.
 
