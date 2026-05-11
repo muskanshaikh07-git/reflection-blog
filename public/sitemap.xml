@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/tools-reflection/</loc>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/</loc>
+    <lastmod>2026-05-11T20:15:40+05:30</lastmod>
+  </url><url>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/posts/</loc>
+    <lastmod>2026-05-11T20:15:40+05:30</lastmod>
+  </url><url>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/posts/presentation-reflection/</loc>
+    <lastmod>2026-05-11T20:15:40+05:30</lastmod>
+  </url><url>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/posts/tools-reflection/</loc>
     <lastmod>2026-05-05T19:21:03+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/</loc>
-    <lastmod>2026-05-05T19:21:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/</loc>
-    <lastmod>2026-05-05T19:21:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/typebot-reflection/</loc>
-    <lastmod>2026-04-13T01:57:21+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/second-blog/</loc>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/posts/second-blog/</loc>
     <lastmod>2026-04-07T15:43:09+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/reflection-post/</loc>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/posts/reflection-post/</loc>
     <lastmod>2026-03-25T12:39:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/my-first-post/</loc>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/posts/my-first-post/</loc>
     <lastmod>2026-03-25T12:35:09+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/categories/</loc>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/post/</loc>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/post/</loc>
   </url><url>
-    <loc>http://localhost:1313/muskanshaikh07-git/reflection-blog/tags/</loc>
+    <loc>https://github.com/muskanshaikh07-git/reflection-blog/tags/</loc>
   </url>
 </urlset>

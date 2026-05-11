@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Project</title>
-    <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/</link>
+    <link>https://github.com/muskanshaikh07-git/reflection-blog/</link>
     <description>Recent content on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2026 19:21:03 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/muskanshaikh07-git/reflection-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 May 2026 20:15:40 +0530</lastBuildDate>
+    <atom:link href="https://github.com/muskanshaikh07-git/reflection-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflection of presentation :- Group 4</title>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/presentation-reflection/</link>
+      <pubDate>Mon, 11 May 2026 20:15:40 +0530</pubDate>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/presentation-reflection/</guid>
+      <description>&lt;p&gt;I am writing the reflection on Group 4’s presentation which is on the &lt;strong&gt;“Experience of Women in Computer Science”&lt;/strong&gt;. I think this topic is really interesting and it is also very important. The reason I think this is because it highlights the challenges and experiences faced by women in the field of computer science and technology.&lt;/p&gt;&#xA;&lt;p&gt;I was really impressed by the presentation. It talked about issues like gender bias and lack of representation.The team gave examples that made me think about the struggles women face when working with men or studying in places where men&amp;rsquo;re in charge.The presentation team did a job explaining things in a simple way. This made the topic feel more real to me. I started to think about the difficulties many women have when they want to work with computers.The team helped me see that women who want to work in computer science face problems.The presentation made me realize how tough it is for women in this field. Not only this but the group also tried to spread awareness about the importance of equality and support for women in technology.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Learning about projects on communication information</title>
-      <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/tools-reflection/</link>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/tools-reflection/</link>
       <pubDate>Tue, 05 May 2026 19:21:03 +0530</pubDate>
-      <guid>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/tools-reflection/</guid>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/tools-reflection/</guid>
       <description>&lt;p&gt;In this unit we were introduced to two tools such as chatbot and dashboard which was a totally different experience compared to others projects. As these tools were totally new to me, I divided my work into small steps. Firstly I spent my time on exploring the chatbot and dashboard to understand their basic features. After this I mainly focused on planning about what I wanted to create and how the flow should be  instead of directly starting implementing. I look up for online tutorial especially here youtube helps a lot and side my side i was doing trial and error within the tools to learn how different functions work. The idea of breaking them into smaller steps really helped me to manage my time and also to reduce the confusion during the end stages. &lt;/p&gt;</description>
     </item>
     <item>
-      <title>Learning about Typebot and Metabase</title>
-      <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/typebot-reflection/</link>
-      <pubDate>Mon, 13 Apr 2026 01:57:21 +0530</pubDate>
-      <guid>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/typebot-reflection/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Learning about Failure wiki </title>
-      <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/second-blog/</link>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/second-blog/</link>
       <pubDate>Tue, 07 Apr 2026 15:43:09 +0530</pubDate>
-      <guid>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/second-blog/</guid>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/second-blog/</guid>
       <description>&lt;p&gt;In this unit, I have learned about the concepts of failure and how it doesn’t always have a negative outcome, but it&amp;rsquo;s an important part of learning. Before learning this concept I used to think of failure as something that can be avoided but later this topic completely changed my perspective. Basically it shows me how failure can actually help us in understanding the situation better and improving future decisions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My learning experience with binary and optimizing problems</title>
-      <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/reflection-post/</link>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/reflection-post/</link>
       <pubDate>Wed, 25 Mar 2026 12:39:51 +0530</pubDate>
-      <guid>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/reflection-post/</guid>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/reflection-post/</guid>
       <description>&lt;p&gt;In this unit, I learned about concepts that are related to binary numbers, decimal conversions, problem-solving (optimization problems) and transforming image. This all topics are new for me especially the topic related to binary numbers because as I change my major in second semester so I was unaware of what does binary numbers means firstly I consider this as normal numbers system. But later on I understood that computers only use 0s and 1s language which is known as binary number this concept was totally forgotten by me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/my-first-post/</link>
+      <link>https://github.com/muskanshaikh07-git/reflection-blog/posts/my-first-post/</link>
       <pubDate>Wed, 25 Mar 2026 12:35:09 +0530</pubDate>
-      <guid>http://localhost:1313/muskanshaikh07-git/reflection-blog/posts/my-first-post/</guid>
+      <guid>https://github.com/muskanshaikh07-git/reflection-blog/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hello! I’m &lt;strong&gt;Muskan Shaikh&lt;/strong&gt;, currently pursuing a degree in &lt;strong&gt;Information Science&lt;/strong&gt; at &lt;strong&gt;Azim Premji University&lt;/strong&gt;. I chose this field because I have a strong interest in &lt;strong&gt;robotics&lt;/strong&gt;, especially the way it brings together &lt;strong&gt;software and hardware&lt;/strong&gt; to solve real-world problems.&lt;/p&gt;&#xA;&lt;p&gt;My journey into robotics started when I was in &lt;strong&gt;Grade 9&lt;/strong&gt;. I got the opportunity to be part of a &lt;strong&gt;robotics organization&lt;/strong&gt;, and that experience completely changed the way I looked at technology. I was introduced to different &lt;strong&gt;programming languages&lt;/strong&gt; such as &lt;strong&gt;Java, Python, and HTML&lt;/strong&gt;, and I also learned &lt;strong&gt;3D modeling&lt;/strong&gt; using &lt;strong&gt;Fusion 360&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
